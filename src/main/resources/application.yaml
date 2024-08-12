@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: security-service
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/imrandb
+    password: root
+  jpa:
+    hibernate:
+      show-sql: 'true'
+      ddl-auto: update
